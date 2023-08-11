@@ -8,7 +8,7 @@ const namelist = [{name : "Mukilan"},{name : "Aadavan"}]
 app.use(express.json());
 
 app.listen(PORT,() => {
-    console.log('server started at port ${PORT}');
+    console.log('server started at port 3000');
 })
 
 app.get("/test",(request,response) => {
